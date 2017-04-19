@@ -54,6 +54,8 @@ public class InfoLayout extends RelativeLayout {
                     break;
             }
         }
+
+        typedArray.recycle();
     }
 
     public void setTitle(String title) {
